@@ -2,7 +2,7 @@ development:
   mail_smtp_conf:
     address: mail.malahinisolutions.com
     port: 587
-    domain: Verifications.herokuapp.com
+    domain: idv.herokuapp.com
     user_name: support@malahinisolutions.com
     password: "Password@abc123"
     authentication: login
@@ -18,7 +18,7 @@ development:
     days_without_id_verification: 14
   account_credentials_key: Xdv7g6Vzzk3VwyZYYqNWy3fnqeDVmvyG
   url_options:
-    host: verifications.herokuapp.com
+    host: idv.herokuapp.com
     protocol: https
   current_wallet_version: "1.2.0"
 
@@ -28,7 +28,7 @@ production:
   mail_smtp_conf:
     address: mail.malahinisolutions.com
     port: 587
-    domain: Verifications.herokuapp.com
+    domain: idv.herokuapp.com
     user_name: support@malahinisolutions.com
     password: "Password@abc123"
     authentication: login
@@ -44,7 +44,7 @@ production:
     days_without_id_verification: 14
   account_credentials_key: Xdv7g6Vzzk3VwyZYYqNWy3fnqeDVmvyG
   url_options:
-    host: verifications.herokuapp.com
+    host: idv.herokuapp.com
     protocol: https
   current_wallet_version: "1.2.0"
 
@@ -54,7 +54,7 @@ test:
 mail_smtp_conf:
   address: mail.malahinisolutions.com
   port: 587
-  domain: Verifications.herokuapp.com
+  domain: idv.herokuapp.com
   user_name: support@malahinisolutions.com
   password: "Password@abc123"
   authentication: login
@@ -68,6 +68,6 @@ mail_smtp_conf:
     days_without_id_verification: 14
   account_credentials_key: Xdv7g6Vzzk3VwyZYYqNWy3fnqeDVmvyG
   url_options:
-    host: verifications.herokuapp.com
+    host: idv.herokuapp.com
     protocol: https
   current_wallet_version: "1.2.0"
