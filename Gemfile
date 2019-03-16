@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 #gem 'unicorn'
-#gem 'puma'
+gem 'puma'
 gem 'rails', '4.2.0'
 gem 'mysql2', '~> 0.3.18'
 gem 'therubyracer', platforms: :ruby
