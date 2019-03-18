@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 #gem 'unicorn'
 gem 'puma'
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.10'
 gem 'mysql2', '~> 0.3.18'
 gem 'therubyracer', platforms: :ruby
 #gem "rack-handlers"
