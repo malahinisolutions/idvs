@@ -1,0 +1,492 @@
+ DEPRECATION WARNING: Add concern :active_scaffold, ActiveScaffold::Routing::Basic.new(association: true) to your routes file. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Add concern :active_scaffold_association, ActiveScaffold::Routing::Association.new to your routes file. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:67)
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:12:57 +0000
+Processing by WelcomeController#index as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+Started GET "/" for 117.196.181.243 at 2019-03-18 15:12:58 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (2593.6ms)
+Completed 200 OK in 2618ms (Views: 2605.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/welcome.js" for 117.196.181.243 at 2019-03-18 15:13:02 +0000
+Started GET "/assets/application.css" for 117.196.181.243 at 2019-03-18 15:13:02 +0000
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:13:02 +0000
+Started GET "/assets/welcome.js?cb=1552921984929&fingerprint=c2VwLW5vLXJlZGlyZWN0&onIframeFlag" for 117.196.181.243 at 2019-03-18 15:13:04 +0000
+Started GET "/assets/loading_page.gif" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started GET "/assets/login_bg.jpg" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started GET "/assets/submit-icon.png" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started GET "/assets/OpenSans-Light-webfont.woff" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started GET "/assets/OpenSans-Regular-webfont.woff" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 117.196.181.243 at 2019-03-18 15:13:05 +0000
+Started POST "/welcome/checkpassword" for 117.196.181.243 at 2019-03-18 15:13:13 +0000
+Processing by WelcomeController#checkpassword as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fd8v7fXuyB22uhWw0MVKPMa7nVEHTBEXUrdvmpX3Z1c+ubdto/r4n2+ji97VBogFO1p3GPXy93VwLRgK6oalAg==", "userdata"=>{"userpassword"=>"[FILTERED]"}, "commit"=>"Submit"}
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/welcome
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:13:13 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.haml within layouts/index (13.2ms)
+  Rendered layouts/_footer.haml (1.9ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:13:13 +0000
+Started GET "/assets/welcome.js" for 117.196.181.243 at 2019-03-18 15:13:13 +0000
+Started GET "/assets/body_bg.jpg" for 117.196.181.243 at 2019-03-18 15:13:14 +0000
+Started GET "/assets/from_bg.jpg" for 117.196.181.243 at 2019-03-18 15:13:14 +0000
+Started GET "/assets/trajanpro-bold.woff2" for 117.196.181.243 at 2019-03-18 15:13:14 +0000
+Started GET "/assets/RobotoSlab-Bold.woff" for 117.196.181.243 at 2019-03-18 15:13:14 +0000
+Started GET "/agreements" for 117.196.181.243 at 2019-03-18 15:13:17 +0000
+Processing by WelcomeController#agreements as HTML
+  Rendered welcome/agreements.html.haml within layouts/auth (6.1ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:13:17 +0000
+Started POST "/agreements/check_agreements" for 117.196.181.243 at 2019-03-18 15:13:20 +0000
+Processing by AgreementsController#check_agreements as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cDDnRiMF7p/wNdVBPt731CDAhlGqSBYFv2bhLEzrnmhbVn/GdRHeHSksSy87HTXt3SFsGFj28Ged/Ja8M5pcPQ==", "terms_of_use"=>"true", "commit"=>"REGISTER"}
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/accounts/sign_up
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+Started GET "/accounts/sign_up" for 117.196.181.243 at 2019-03-18 15:13:20 +0000
+Processing by RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.haml within layouts/auth (107.1ms)
+  Rendered layouts/_footer.haml (2.0ms)
+Completed 200 OK in 412ms (Views: 141.0ms | ActiveRecord: 241.5ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:13:21 +0000
+Started GET "/assets/OpenSans-Bold-webfont.woff" for 117.196.181.243 at 2019-03-18 15:13:21 +0000
+Started POST "/accounts" for 117.196.181.243 at 2019-03-18 15:13:37 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2sJmv9zmqn5rFnPnyIOUyXfnhyRaOTTU/mfmnynFV93xpP4/ivKa/LIP7YnNQFbwigZtbaiH0rbc/ZEPVrSViA==", "account"=>{"email"=>"narendra@yopmail.com", "login"=>"narendra", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Account"}
+  Rendered devise/mailer/confirmation_instructions.html.haml (6.4ms)
+
+Sent mail to narendra@yopmail.com (1055.0ms)
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/
+Completed 302 Found in 2498ms (ActiveRecord: 821.1ms)
+Started GET "/" for 117.196.181.243 at 2019-03-18 15:13:40 +0000
+Processing by WelcomeController#test as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/welcome
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:13:40 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.haml within layouts/index (0.5ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:13:41 +0000
+Started GET "/assets/body_bg.jpg" for 117.196.181.243 at 2019-03-18 15:13:41 +0000
+Started GET "/assets/from_bg.jpg" for 117.196.181.243 at 2019-03-18 15:13:41 +0000
+Started GET "/assets/success.png" for 117.196.181.243 at 2019-03-18 15:13:41 +0000
+Started GET "/assets/ie-spacer.gif" for 117.196.181.243 at 2019-03-18 15:13:41 +0000
+Started GET "/accounts/confirmation?confirmation_token=TG7EZtkpZupB36sEEzyq&locale=en" for 117.196.181.243 at 2019-03-18 15:15:47 +0000
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"TG7EZtkpZupB36sEEzyq", "locale"=>"en"}
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/accounts/sign_in
+Completed 302 Found in 672ms (ActiveRecord: 550.5ms)
+Started GET "/accounts/sign_in" for 117.196.181.243 at 2019-03-18 15:15:48 +0000
+Processing by SessionsController#new as HTML
+  Rendered devise/sessions/new.html.haml within layouts/auth (13.9ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 117.196.181.243 at 2019-03-18 15:15:48 +0000
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:15:48 +0000
+Started GET "/assets/application.js?cb=1552922149074&fingerprint=c2VwLW5vLXJlZGlyZWN0&onIframeFlag" for 117.196.181.243 at 2019-03-18 15:15:48 +0000
+DEPRECATION WARNING: Add concern :active_scaffold, ActiveScaffold::Routing::Basic.new(association: true) to your routes file. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Add concern :active_scaffold_association, ActiveScaffold::Routing::Association.new to your routes file. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:64)
+DEPRECATION WARNING: Use concerns: :active_scaffold in resources instead of as_routes, or concerns :active_scaffold in resources block if want to disable association routes or restrict routes with only or except options. (called from block (3 levels) in <top (required)> at /var/www/idv/config/routes.rb:67)
+Started GET "/agreements" for 117.196.181.243 at 2019-03-18 15:21:52 +0000
+Processing by WelcomeController#agreements as HTML
+  Rendered welcome/agreements.html.haml within layouts/auth (13.8ms)
+  Rendered layouts/_footer.haml (2.4ms)
+Completed 200 OK in 2661ms (Views: 2651.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:21:55 +0000
+Started GET "/assets/application.js?cb=1552922515873&fingerprint=c2VwLW5vLXJlZGlyZWN0&onIframeFlag" for 117.196.181.243 at 2019-03-18 15:21:55 +0000
+Started POST "/agreements/check_agreements" for 117.196.181.243 at 2019-03-18 15:22:03 +0000
+Processing by AgreementsController#check_agreements as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wNjZLFL5wlGq4baRidqby6V4/2Z7x325PpNRb6C/+QfrvkGsBO3y03P4KP+MGVnyWJkVL4l5m9scCSb/3847Ug==", "terms_of_use"=>"true", "commit"=>"REGISTER"}
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/accounts/sign_up
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+Started GET "/accounts/sign_up" for 117.196.181.243 at 2019-03-18 15:22:03 +0000
+Processing by RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.haml within layouts/auth (58.3ms)
+  Rendered layouts/_footer.haml (2.4ms)
+Completed 200 OK in 492ms (Views: 200.6ms | ActiveRecord: 248.8ms)
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:22:05 +0000
+Started POST "/accounts" for 117.196.181.243 at 2019-03-18 15:22:23 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/Wp3Cvz1tTEDCToBZflKOkegFe5OT83m76vZXHG9Pc/WDO+KquGFs9oQpG9gOogDukH/p7zxK4TNMa7MDsz/mg==", "account"=>{"email"=>"narendra@yopmail.com", "login"=>"narendra", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create Account"}
+  Rendered devise/mailer/confirmation_instructions.html.haml (6.6ms)
+
+Sent mail to narendra@yopmail.com (1049.6ms)
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/
+Completed 302 Found in 2531ms (ActiveRecord: 835.9ms)
+Started GET "/" for 117.196.181.243 at 2019-03-18 15:22:26 +0000
+Processing by WelcomeController#test as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/welcome
+Completed 302 Found in 14ms (ActiveRecord: 0.0ms)
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:22:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.haml within layouts/index (5.6ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/body_bg.jpg" for 117.196.181.243 at 2019-03-18 15:22:27 +0000
+Started GET "/assets/from_bg.jpg" for 117.196.181.243 at 2019-03-18 15:22:27 +0000
+Started GET "/assets/success.png" for 117.196.181.243 at 2019-03-18 15:22:27 +0000
+Started GET "/assets/ie-spacer.gif" for 117.196.181.243 at 2019-03-18 15:22:27 +0000
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:24:34 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.haml within layouts/index (451.9ms)
+Completed 401 Unauthorized in 593ms
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:24:35 +0000
+Processing by WelcomeController#index as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+Started GET "/" for 117.196.181.243 at 2019-03-18 15:24:36 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (332.5ms)
+Completed 200 OK in 360ms (Views: 358.8ms | ActiveRecord: 0.0ms)
+Started GET "/welcome/accounts/confirmation?confirmation_token=b7BbKPSGszx5jXh4TsH_&locale=en" for 117.196.181.243 at 2019-03-18 15:24:44 +0000
+
+ActionController::RoutingError (No route matches [GET] "/welcome/accounts/confirmation"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/welcome/accounts/confirmation?confirmation_token=b7BbKPSGszx5jXh4TsH_&locale=en" for 117.196.181.243 at 2019-03-18 15:24:47 +0000
+
+ActionController::RoutingError (No route matches [GET] "/welcome/accounts/confirmation"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/accounts/confirmation?confirmation_token=b7BbKPSGszx5jXh4TsH_&locale=en" for 117.196.181.243 at 2019-03-18 15:24:52 +0000
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"b7BbKPSGszx5jXh4TsH_", "locale"=>"en"}
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/accounts/sign_in
+Completed 302 Found in 503ms (ActiveRecord: 469.5ms)
+Started GET "/accounts/sign_in" for 117.196.181.243 at 2019-03-18 15:24:53 +0000
+Processing by SessionsController#new as HTML
+  Rendered devise/sessions/new.html.haml within layouts/auth (16.7ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 117.196.181.243 at 2019-03-18 15:24:53 +0000
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:24:53 +0000
+Started GET "/assets/application.js?cb=1552922693963&fingerprint=c2VwLW5vLXJlZGlyZWN0&onIframeFlag" for 117.196.181.243 at 2019-03-18 15:24:53 +0000
+Started GET "/assets/loading_page.gif" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/OpenSans-Light-webfont.woff" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/OpenSans-Regular-webfont.woff" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/OpenSans-Bold-webfont.woff" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/success.png" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/ie-spacer.gif" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/error.png" for 117.196.181.243 at 2019-03-18 15:24:59 +0000
+Started GET "/assets/login_bg.jpg" for 117.196.181.243 at 2019-03-18 15:25:00 +0000
+Started GET "/assets/submit-icon.png" for 117.196.181.243 at 2019-03-18 15:25:00 +0000
+Started GET "/assets/gritter-close.png" for 117.196.181.243 at 2019-03-18 15:25:00 +0000
+Started GET "/" for 117.196.181.243 at 2019-03-18 15:29:44 +0000
+Processing by WelcomeController#test as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/welcome
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/welcome" for 117.196.181.243 at 2019-03-18 15:29:44 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.haml within layouts/index (0.6ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 117.196.181.243 at 2019-03-18 15:29:45 +0000
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:29:45 +0000
+Started GET "/assets/welcome.js" for 117.196.181.243 at 2019-03-18 15:29:45 +0000
+Started GET "/assets/application.js?cb=1552922985814&fingerprint=c2VwLW5vLXJlZGlyZWN0&onIframeFlag" for 117.196.181.243 at 2019-03-18 15:29:45 +0000
+Started GET "/verifiers/sign_in" for 117.196.181.243 at 2019-03-18 15:29:51 +0000
+Processing by Verifiers::SessionsController#new as HTML
+  Rendered verifiers/sessions/new.html.erb within layouts/auth (5.0ms)
+  Rendered layouts/_footer.haml (0.1ms)
+Completed 200 OK in 198ms (Views: 14.1ms | ActiveRecord: 176.2ms)
+Started GET "/assets/application.css" for 117.196.181.243 at 2019-03-18 15:29:51 +0000
+Started GET "/assets/application.js" for 117.196.181.243 at 2019-03-18 15:29:51 +0000
+Started GET "/assets/loading_page.gif" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/assets/OpenSans-Light-webfont.woff" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/assets/fontawesome-webfont.woff?v=4.2.0" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/assets/OpenSans-Regular-webfont.woff" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/assets/login_bg.jpg" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/assets/submit-icon.png" for 117.196.181.243 at 2019-03-18 15:29:57 +0000
+Started GET "/" for 52.114.6.38 at 2019-03-18 15:31:47 +0000
+Processing by WelcomeController#test as HTML
+Started GET "/verifiers/sign_in" for 52.114.6.38 at 2019-03-18 15:31:47 +0000
+  Rendered welcome/test.html.erb (3.9ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Processing by Verifiers::SessionsController#new as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/welcome
+Filter chain halted as :user_is_logged_in rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/welcome" for 52.114.6.38 at 2019-03-18 15:31:48 +0000
+Processing by WelcomeController#index as HTML
+Redirected to http://ec2-18-191-203-163.us-east-2.compute.amazonaws.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+Started GET "/" for 187.108.90.9 at 2019-03-18 15:45:00 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 37.254.80.240 at 2019-03-18 16:03:41 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.9ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started GET "/.git/HEAD" for 18.217.150.71 at 2019-03-18 16:13:52 +0000
+
+ActionController::RoutingError (No route matches [GET] "/.git/HEAD"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/.git/config" for 198.167.223.52 at 2019-03-18 17:41:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/.git/config"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/" for 103.78.16.29 at 2019-03-18 18:02:10 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 45.6.101.110 at 2019-03-18 20:33:29 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (3.1ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started GET "/" for 165.16.37.166 at 2019-03-18 20:50:37 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 187.110.212.64 at 2019-03-18 23:11:07 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 188.34.51.201 at 2019-03-18 23:15:03 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 201.47.91.245 at 2019-03-18 23:16:48 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 109.235.58.226 at 2019-03-19 00:12:18 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/" for 201.42.29.136 at 2019-03-19 01:08:14 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/" for 60.191.0.244 at 2019-03-19 01:14:38 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started GET "/" for 185.238.237.112 at 2019-03-19 02:07:33 +0000
+Processing by WelcomeController#test as HTML
+  Rendered welcome/test.html.erb (1.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 196.52.43.95 at 2019-03-19 02:11:27 +0000
+Processing by WelcomeController#test as */*
+  Rendered welcome/test.html.erb (3.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+Started GET "/struts2-rest-showcase/orders.xhtml" for 202.142.158.82 at 2019-03-19 03:53:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/struts2-rest-showcase/orders.xhtml"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/index.action" for 202.142.158.82 at 2019-03-19 03:53:06 +0000
+
+ActionController::RoutingError (No route matches [GET] "/index.action"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/index.do" for 202.142.158.82 at 2019-03-19 03:53:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/index.do"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.11) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.11) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.11) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.11) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:605:in `process_client'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:700:in `worker_loop'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:548:in `spawn_missing_workers'
+  unicorn (5.5.0) lib/unicorn/http_server.rb:144:in `start'
+  unicorn (5.5.0) bin/unicorn:128:in `<top (required)>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `load'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/unicorn:23:in `<main>'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `eval'
+  /home/ubuntu/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:24:in `<main>'
+
+
+Started GET "/" for 192.241.193.206 at 2019-03-19 04:01:12 +0000
+Processing by WelcomeController#test as */*
+  Rendered welcome/test.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)

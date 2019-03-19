@@ -1,0 +1,102 @@
+ I, [2019-03-18T13:28:59.810901 #22062]  INFO -- : Refreshing Gem list
+I, [2019-03-18T13:29:01.973110 #22062]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T13:29:01.973270 #22062]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T13:29:02.394255 #22065]  INFO -- : worker=0 ready
+I, [2019-03-18T13:29:02.395797 #22062]  INFO -- : master process ready
+I, [2019-03-18T13:29:02.402580 #22067]  INFO -- : worker=1 ready
+I, [2019-03-18T13:29:02.404510 #22070]  INFO -- : worker=2 ready
+I, [2019-03-18T13:44:05.686796 #22284]  INFO -- : Refreshing Gem list
+I, [2019-03-18T13:44:07.821727 #22284]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T13:44:07.821888 #22284]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T13:44:08.248483 #22287]  INFO -- : worker=0 ready
+I, [2019-03-18T13:44:08.250890 #22284]  INFO -- : master process ready
+I, [2019-03-18T13:44:08.258284 #22290]  INFO -- : worker=1 ready
+I, [2019-03-18T13:44:08.259674 #22292]  INFO -- : worker=2 ready
+I, [2019-03-18T13:55:11.198893 #22530]  INFO -- : Refreshing Gem list
+I, [2019-03-18T13:55:13.343035 #22530]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T13:55:13.343200 #22530]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T13:55:13.790842 #22533]  INFO -- : worker=0 ready
+I, [2019-03-18T13:55:13.792123 #22530]  INFO -- : master process ready
+I, [2019-03-18T13:55:13.798221 #22536]  INFO -- : worker=1 ready
+I, [2019-03-18T13:55:13.799779 #22538]  INFO -- : worker=2 ready
+I, [2019-03-18T13:56:56.642753 #22611]  INFO -- : Refreshing Gem list
+I, [2019-03-18T13:56:58.796276 #22611]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T13:56:58.796425 #22611]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T13:56:59.214849 #22614]  INFO -- : worker=0 ready
+I, [2019-03-18T13:56:59.216047 #22611]  INFO -- : master process ready
+I, [2019-03-18T13:56:59.222234 #22617]  INFO -- : worker=1 ready
+I, [2019-03-18T13:56:59.223558 #22619]  INFO -- : worker=2 ready
+I, [2019-03-18T14:01:28.758745 #22686]  INFO -- : Refreshing Gem list
+I, [2019-03-18T14:01:30.905284 #22686]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T14:01:30.905439 #22686]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T14:01:31.350003 #22689]  INFO -- : worker=0 ready
+I, [2019-03-18T14:01:31.352767 #22686]  INFO -- : master process ready
+I, [2019-03-18T14:01:31.358327 #22692]  INFO -- : worker=1 ready
+I, [2019-03-18T14:01:31.362037 #22694]  INFO -- : worker=2 ready
+I, [2019-03-18T14:10:57.330848 #22846]  INFO -- : Refreshing Gem list
+I, [2019-03-18T14:10:59.442811 #22846]  INFO -- : unlinking existing socket=/var/www/idv/tmp/sockets/unicorn.staging.sock
+I, [2019-03-18T14:10:59.442961 #22846]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T14:10:59.888211 #22849]  INFO -- : worker=0 ready
+I, [2019-03-18T14:10:59.891061 #22846]  INFO -- : master process ready
+I, [2019-03-18T14:10:59.898312 #22852]  INFO -- : worker=1 ready
+I, [2019-03-18T14:10:59.899737 #22854]  INFO -- : worker=2 ready
+/var/www/idv/app/controllers/accounts_controller.rb:63: warning: else without rescue is useless
+/var/www/idv/app/controllers/verifications_controller.rb:153: warning: else without rescue is useless
+/var/www/idv/app/controllers/accounts_controller.rb:63: warning: else without rescue is useless
+/var/www/idv/app/controllers/verifications_controller.rb:153: warning: else without rescue is useless
+/var/www/idv/app/controllers/verifications_controller.rb:153: warning: else without rescue is useless
+I, [2019-03-18T14:31:20.691649 #22949]  INFO -- : Refreshing Gem list
+I, [2019-03-18T14:31:22.919449 #22949]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T14:31:23.371970 #22952]  INFO -- : worker=0 ready
+I, [2019-03-18T14:31:23.374442 #22949]  INFO -- : master process ready
+I, [2019-03-18T14:31:23.382320 #22955]  INFO -- : worker=1 ready
+I, [2019-03-18T14:31:23.383722 #22957]  INFO -- : worker=2 ready
+E, [2019-03-18T14:32:57.904433 #22949] ERROR -- : worker=1 PID:22955 timeout (16s > 15s), killing
+E, [2019-03-18T14:32:58.301912 #22949] ERROR -- : reaped #<Process::Status: pid 22955 SIGKILL (signal 9)> worker=1
+E, [2019-03-18T14:32:58.680104 #22846] ERROR -- : reaped #<Process::Status: pid 22852 SIGKILL (signal 9)> worker=1
+I, [2019-03-18T14:32:58.761034 #22962]  INFO -- : worker=1 ready
+I, [2019-03-18T14:32:58.794171 #22965]  INFO -- : worker=1 ready
+D, [2019-03-18T14:48:58.221469 #22846] DEBUG -- : waiting 8.5s after suspend/hibernation
+D, [2019-03-18T14:49:19.602513 #22949] DEBUG -- : waiting 8.5s after suspend/hibernation
+D, [2019-03-18T14:49:35.430484 #22949] DEBUG -- : waiting 8.5s after suspend/hibernation
+Unicorn master intercepting TERM and sending myself QUIT instead
+Unicorn master intercepting TERM and sending myself QUIT instead
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+Unicorn worker intercepting TERM and doing nothing. Wait for master to send QUIT
+I, [2019-03-18T15:10:33.034915 #22949]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2019-03-18T15:10:33.035074 #22846]  INFO -- : reloading config_file=config/unicorn.rb
+config/unicorn.rb:5: warning: already initialized constant Unicorn::Configurator::APP_PATH
+config/unicorn.rb:5: warning: previous definition of APP_PATH was here
+config/unicorn.rb:5: warning: already initialized constant Unicorn::Configurator::APP_PATH
+config/unicorn.rb:5: warning: previous definition of APP_PATH was here
+I, [2019-03-18T15:10:33.060774 #22846]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T15:10:33.409447 #22949]  INFO -- : Refreshing Gem list
+I, [2019-03-18T15:10:33.409417 #22846]  INFO -- : Refreshing Gem list
+I, [2019-03-18T15:10:34.034374 #22846]  INFO -- : done reloading config_file=config/unicorn.rb
+E, [2019-03-18T15:10:34.034520 #22846] ERROR -- : reaped #<Process::Status: pid 22854 SIGKILL (signal 9)> worker=2
+I, [2019-03-18T15:10:34.034640 #22949]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2019-03-18T15:10:34.877078 #22846]  INFO -- : reaped #<Process::Status: pid 22849 exit 0> worker=0
+I, [2019-03-18T15:10:34.877167 #22949]  INFO -- : reaped #<Process::Status: pid 22957 exit 0> worker=2
+I, [2019-03-18T15:10:34.878740 #22949]  INFO -- : reaped #<Process::Status: pid 22965 exit 0> worker=1
+I, [2019-03-18T15:10:34.978891 #22846]  INFO -- : reaped #<Process::Status: pid 22962 exit 0> worker=1
+I, [2019-03-18T15:10:34.979191 #22949]  INFO -- : reaped #<Process::Status: pid 22952 exit 0> worker=0
+I, [2019-03-18T15:10:34.979402 #22949]  INFO -- : master complete
+I, [2019-03-18T15:10:34.979541 #22846]  INFO -- : master complete
+I, [2019-03-18T15:12:42.481446 #1938]  INFO -- : Refreshing Gem list
+I, [2019-03-18T15:12:44.600527 #1938]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T15:12:45.025137 #1941]  INFO -- : worker=0 ready
+I, [2019-03-18T15:12:45.026367 #1938]  INFO -- : master process ready
+I, [2019-03-18T15:12:45.032059 #1944]  INFO -- : worker=1 ready
+I, [2019-03-18T15:12:45.035802 #1946]  INFO -- : worker=2 ready
+I, [2019-03-18T15:21:12.620147 #2253]  INFO -- : Refreshing Gem list
+I, [2019-03-18T15:21:14.780812 #2253]  INFO -- : listening on addr=/var/www/idv/tmp/sockets/unicorn.staging.sock fd=9
+I, [2019-03-18T15:21:15.204851 #2256]  INFO -- : worker=0 ready
+I, [2019-03-18T15:21:15.206123 #2253]  INFO -- : master process ready
+I, [2019-03-18T15:21:15.211839 #2259]  INFO -- : worker=1 ready
+I, [2019-03-18T15:21:15.215757 #2261]  INFO -- : worker=2 ready
+E, [2019-03-18T15:24:36.640051 #1938] ERROR -- : reaped #<Process::Status: pid 1946 SIGKILL (signal 9)> worker=2
+I, [2019-03-18T15:24:36.659696 #2304]  INFO -- : worker=2 ready
